@@ -2,3 +2,55 @@
 body {
   font-family: Lato;
 }
+
+.btn-primary {  
+  border-radius: 8px;
+  background: #E55473;
+  border: 0px;
+  color: white;
+  font-size: 20px;  
+  font-weight: 300;
+  padding: 20px 45px;
+}
+
+/* header related styles */
+.header {
+  background-color: #FDEEF1;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.banner {
+  width: 42%;
+  padding: 100px 30px 0px 40px;  
+}
+
+.banner_title {
+  font-size: 80px;  
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 670px;
+  margin-bottom: 15px; 
+}
+
+.banner_description {
+  color: #8C8587;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+
+}
+
+.header .banner_img {
+  width: 635px;
+  height: 800px;
+}
