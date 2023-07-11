@@ -191,12 +191,10 @@ body {
 }
 
 /* instagram section related styles */
-.instagram {  
-  /* display: flex; */
+.instagram {    
   justify-content: center;
   padding-top: 50px;
-  padding-bottom: 110px;
-  /* gap: 250px; */  
+  padding-bottom: 110px;  
 }
 
 .instagram_title {
@@ -280,11 +278,7 @@ footer {
   background-color: #111010;
   height: 350px;
   margin-top: 50px; 
-  padding-top: 100px; 
-  /*display: flex;
-  justify-content:center;   
-  padding-bottom: 80px; 
-  gap: 250px; */
+  padding-top: 100px;   
 }
 
 .footer_title {
@@ -313,4 +307,35 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: normal; 
+}
+
+/* Bonus section*/
+.bonus_section {
+  width: 1245px;
+  height: 450px;  
+  background-color: #FDDAE0;  
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 100px;;
+  padding-top: 100px;
+  padding-left: 200px;
+  
+}
+
+.bonus_title {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;  
+}
+
+.bonus_txt {
+  color: #8C8587;  
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
 }
