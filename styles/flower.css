@@ -54,7 +54,7 @@ body {
 
 /* featured section related styles */
 .featured {
-  padding: 150px;
+  padding-top: 150px;
   text-align: center;  
 }
 
@@ -120,7 +120,7 @@ body {
 
 .flower_name {
   width: 464px;
-  height: 538px;
+  height: 180px;
   color: #272727;
   text-align: center;  
   font-size: 24px;
@@ -128,4 +128,33 @@ body {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+
+/* service section related styles */
+.services {
+  width: 1440px;
+  height: 220px;
+  display: flex;
+  background-color: #F4F4F4;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  justify-content:space-evenly;
+  padding-top: 100px;
+}
+
+.service_img {
+  width: 88px;
+  height: 88px;
+}
+
+.service_txt {
+  text-align: center;
+  color: #505050;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+
 }
