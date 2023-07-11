@@ -55,7 +55,6 @@ body {
 /* featured section related styles */
 .featured {
   padding-top: 150px;
-  text-align: center;  
 }
 
 .featured_title {
@@ -73,7 +72,11 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;  
-  text-align: center;  
+  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .flowers {
@@ -185,4 +188,39 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; 
+}
+
+/* instagram section related styles */
+.instagram {  
+  /* display: flex; */
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  /* gap: 250px; */  
+}
+
+.instagram_title {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.instagram_txt {
+  color: #8C8587;
+  width: 600px;  
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.instagram_flowers {   
+  display: flex;
+  justify-content:center;
+  gap: 25px;
+  
 }
