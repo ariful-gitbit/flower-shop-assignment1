@@ -32,8 +32,9 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  width: 670px;
-  margin-bottom: 15px; 
+  width: 690px;
+  margin-bottom: 15px;
+  color: #272727;
 }
 
 .banner_description {
@@ -46,11 +47,85 @@ body {
   margin-bottom: 30px;
 }
 
-.btn-primary {
-
-}
-
 .header .banner_img {
   width: 635px;
   height: 800px;
+}
+
+/* featured section related styles */
+.featured {
+  padding: 150px;
+  text-align: center;  
+}
+
+.featured_title {
+  color: #272727;  
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center; 
+}
+
+.featured_description {  
+  color: #8C8587;  
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;  
+  text-align: center;  
+}
+
+.flowers {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.flower1 {
+  width: 464px;
+  height: 538px;
+  background-color: #F2DEE8;
+  border-radius: 300px 300px 0px 0px;
+  background-image: url('../images/pngwing6.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.flower2 {
+  width: 464px;
+  height: 538px;
+  background-color: #DAF0F1;
+  border-radius: 300px 300px 0px 0px;
+  background-image: url('../images/pngwing5.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.flower3 {
+  width: 464px;
+  height: 538px;
+  background-color: #E4ECDC;
+  border-radius: 300px 300px 0px 0px;
+  background-image: url('../images/pngwing7.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.flowers_name {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.flower_name {
+  width: 464px;
+  height: 538px;
+  color: #272727;
+  text-align: center;  
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
